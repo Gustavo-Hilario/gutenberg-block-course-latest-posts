@@ -6,8 +6,8 @@ import './editor.scss';
 
 export default function Edit() {
 	return (
-		<p { ...useBlockProps() }>
+		<div { ...useBlockProps() }>
 			{ __( 'Boilerplate – hello from the editor!', 'boilerplate' ) }
-		</p>
+		</div>
 	);
 }
