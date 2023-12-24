@@ -1,7 +1,7 @@
 {
     "editor.fontSize": 16,
-    "window.zoomLevel": 1.0,
-    "workbench.statusBar.visible": false,
+    "window.zoomLevel": 1,
+    "workbench.statusBar.visible": true,
     "terminal.integrated.fontSize": 18,
     "terminal.integrated.fontWeight": "500",
     "terminal.integrated.fontWeightBold": "600",
@@ -12,5 +12,19 @@
         "editor.codeActionsOnSave": {
             "source.fixAll.stylelint": "explicit"
         }
-}
+    },
+    "settings.cycle": [
+        {
+            "id": "copilot",
+            "overrideWorkspaceSettings": true,
+            "values": [
+                {
+                    "github.copilot.inlineSuggest.enable": false
+                },
+                {
+                    "github.copilot.inlineSuggest.enable": true
+                }
+            ]
+        }
+    ],
 }

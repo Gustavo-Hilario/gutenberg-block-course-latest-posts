@@ -23,6 +23,23 @@
 		"displayFeaturedImage": {
 			"type": "boolean",
 			"default": true
+		},
+		"order": {
+			"type": "string",
+			"default": "desc"
+		},
+		"orderBy": {
+			"type": "string",
+			"default": "date"
+		},
+		"search": {
+			"type": "string"
+		},
+		"categories": {
+			"type": "array",
+			"items": {
+				"type": "ojbect"
+			}
 		}
 	}
 }
